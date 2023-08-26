@@ -1,0 +1,27 @@
+.aside {
+  padding: 16px;
+  background-color: #eee;
+  height: 100vh;
+}
+.filtersList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 16px;
+
+}
+.searchInput {
+  margin-top: 16px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #666666;
+  border-color: #666666;
+  width: 100%;
+}
+.searchLabel {
+  color: rgba(0, 0, 0, 0.849);
+  font-weight: bold;
+  font-size: 24px;
+}
